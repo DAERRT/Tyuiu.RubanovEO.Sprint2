@@ -25,7 +25,7 @@ namespace Tyuiu.RubanovEO.Sprint2.Task3.V6
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Введите x:");
-            int x = Convert.ToInt32(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
