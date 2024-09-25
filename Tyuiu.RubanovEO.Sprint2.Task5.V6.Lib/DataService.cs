@@ -12,7 +12,7 @@ namespace Tyuiu.RubanovEO.Sprint2.Task5.V6.Lib
             switch (value1)
             {
                 case 1:
-                    mast = "пики";
+                    mast = "пик";
                 break;
                 case 2:
                     mast = "трефы";
@@ -63,7 +63,7 @@ namespace Tyuiu.RubanovEO.Sprint2.Task5.V6.Lib
                     dostoinstvo = "Валет";
                     break;
                 case 12:
-                    dostoinstvo = "Дама";
+                    dostoinstvo = "дама";
                     break;
                 case 13:
                     dostoinstvo = "Король";
