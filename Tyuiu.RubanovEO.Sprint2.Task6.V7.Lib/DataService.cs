@@ -12,26 +12,26 @@ namespace Tyuiu.RubanovEO.Sprint2.Task6.V7.Lib
             for (int i = 0; i < n; i++)
             {
                 j++;
-                if (j > 12)
+                if (j > 11)
                 {
-                    j = 1;
+                    j = 0;
                 }
             }
 
             switch (j)
             {
-                case 1: return "Январь";
-                case 2: return "Февраль";
-                case 3: return "Март";
-                case 4: return "Апрель";
-                case 5: return "Май";
-                case 6: return "Июнь";
-                case 7: return "Июль";
-                case 8: return "Август";
-                case 9: return "Сентябрь";
-                case 10: return "Октябрь";
-                case 11: return "Ноябрь";
-                case 12: return "Декабрь";
+                case 0: return "январь";
+                case 1: return "февраль";
+                case 2: return "март";
+                case 3: return "апрель";
+                case 4: return "май";
+                case 5: return "июнь";
+                case 6: return "июль";
+                case 7: return "август";
+                case 8: return "сентябрь";
+                case 9: return "октябрь";
+                case 10: return "ноябрь";
+                case 11: return "декабрь";
                 default: throw new ArgumentException("Something went wrong!");
             }
         }
